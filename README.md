@@ -184,28 +184,6 @@ git clone https://github.com/StefanHoria/masinuta-robotica-simulink-arduino.git
 
 ---
 
-## 8. Observații
-
-Notate pentru transparență, ca puncte de plecare pentru o versiune viitoare:
-
-- **Calea absolută din *Signal Editor***: blocul referă
-  `C:\Users\stefa\OneDrive\Desktop\RM - Masina\semnal_test.mat`, o cale care nu mai există.
-  La deschiderea modelului pe orice alt calculator (sau chiar pe cel original, după mutarea
-  folderului) blocul semnalează eroare până la reselectarea fișierului.
-- **`test_masina.m` este gol** (0 octeți) în proiectul original, deci nu a fost inclus aici.
-  Un script de post-procesare — încărcarea log-urilor și trasarea răspunsului măsurat față de
-  referință — ar completa bine partea de validare.
-- **Reglarea este în buclă deschisă din punct de vedere al sensului**: pinii de direcție sunt
-  legați la constante, iar ieșirea PI este saturată la `0…255`, deci mașinuța nu poate frâna activ
-  sau merge înapoi. Marșarierul ar cere comutarea perechilor IN1/IN2 și IN3/IN4 în funcție de
-  semnul comenzii.
-- **Encoderele sunt unidirecționale**: o singură fază, numărare pe front crescător, deci viteza
-  măsurată este întotdeauna pozitivă indiferent de sensul real de rotație.
-- Prezentarea menționează sincronizarea în timp real cu PC-ul prin comunicație serială; în
-  configurația salvată a modelului *External mode* este dezactivat, iar modelul rulează autonom
-  pe placă după programare.
-
----
 
 ## Licență
 

@@ -169,8 +169,9 @@ recreează integral la următoarea compilare a modelului.
 *Embedded Coder*, *Simulink Coder*, *MATLAB Coder*.
 
 1. Deschide `model/Masina.slx`.
-2. **Repointează blocul *Signal Editor*** către `semnal_test.mat` din acest repository — vezi
-   secțiunea 8, calea salvată în model este cea de pe calculatorul original.
+2. **Repointează blocul *Signal Editor*** către `semnal_test.mat` din acest repository. Calea
+   salvată în model este o cale absolută de pe calculatorul original, deci pe orice alt sistem
+   blocul trebuie repointat înainte de rulare.
 3. Simulare pe PC: rulează normal, 20 s, pas fix 0,05 s.
 4. Rulare pe placă: **Hardware → Build, Deploy & Start**, cu Arduino Uno conectat.
 

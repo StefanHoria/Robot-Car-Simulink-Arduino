@@ -1,0 +1,32 @@
+# Artefacte de build Simulink / Embedded Coder - se regenereaza la compilare
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.slxc
+codegen/
+*.o
+*.a
+*.mk
+buildInfo.mat
+rtw_proj.tmw
+sl_proj.tmw
+
+# Fisiere temporare MATLAB
+*.asv
+*.autosave
+*.m~
+slprj_*/
+octave-workspace
+
+# Backup Simulink
+*.slx.r20*
+*.slx.original
+*.bak
+
+# Windows / OneDrive
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Office temporare
+~$*

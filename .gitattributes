@@ -1,0 +1,22 @@
+# Modelele Simulink si datele MATLAB sunt binare (arhive ZIP / MAT) - fara diff, fara EOL
+*.slx  binary
+*.slxc binary
+*.mdl  binary
+*.mat  binary
+*.mlx  binary
+
+# Binare Arduino
+*.hex  binary
+*.elf  binary
+*.eep  binary
+
+# Media si documente
+*.mp4  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pptx binary
+*.pdf  binary
+
+*.m  text eol=crlf
+*.md text eol=lf

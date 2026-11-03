@@ -182,7 +182,7 @@ avrdude -c arduino -p atmega328p -P COM3 -b 115200 -U flash:w:firmware/Masina.he
 ```
 
 ```bash
-git clone https://github.com/StefanHoria/Masinuta-Robotica-Simulink-Arduino.git
+git clone https://github.com/StefanHoria/Robot-Car-Simulink-Arduino.git
 ```
 
 ---
